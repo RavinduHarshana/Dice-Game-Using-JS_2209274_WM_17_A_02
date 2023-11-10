@@ -7,3 +7,15 @@ body{
     width: 10%;
     height: 10%;
 }
+.dice{
+    height: 10em;
+    width: 30%;
+    /* display: flex; */
+    /* display: none; */
+}
+.main{
+    text-align: center;
+}
+.namei{
+    width: 20%;
+}

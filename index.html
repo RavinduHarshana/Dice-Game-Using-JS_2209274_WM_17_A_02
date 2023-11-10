@@ -1,28 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=\, initial-scale=1.0">
     <title>Dice Game</title>
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="bootstrap.css"> -->
 </head>
+
 <body>
-    <h1>Dice Game</h1>
+    <div class="main">
 
-    <div class="dice">
-        <div class="p1">
-            <h3>Player 1</h3>
-            <img src="./images/dice2.png" id="p1i" alt="">
+        <h1>Dice Game</h1>
+
+        <section class="namei" id="namei">
+            <input type="text" class="form-control" id="P1Name" placeholder="PLayer 1 Name"><br>
+            <input type="text" id="P2Name" placeholder="PLayer 2 Name"><br>
+            <!-- <button onclick="setname()">Start Game</button> -->
+        </section>
+
+        <div class="dice" id="dice">
+            <div class="p1">
+                <h3 id="P1N">Player 1</h3>
+                <img src="./images/dice2.png" id="p1i" alt="">
+            </div>
+            <div class="p2">
+                <h3 id="P2N">Player 2</h3>
+                <img src="./images/dice2.png" id="p2i">
+            </div>
         </div>
-        <div class="p2">
-            <h3>Player 2</h3>
-            <img src="./images/dice2.png" id="p2i">
+        <div class="btns">
+            <button onclick="roldice()">Play</button>
+            <button>Restart</button>
+
         </div>
-    
-        <button>Play</button>
-        <button>Restart</button>
+
+
+
     </div>
-
-    
+    <script src="script.js"></script>
 </body>
+
 </html>

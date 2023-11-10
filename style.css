@@ -1,4 +1,5 @@
 body{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: gray;
 
@@ -16,8 +17,13 @@ body{
     display: flex;
     display: none;
 }
+#strt{
+    margin-top: 50px;
+}
 
 input{
+    border: none;
+    padding: 5px;
     margin-top: 5px;
     height: 2em;
     width: 10rem;
@@ -34,7 +40,7 @@ input{
     width: 50%;
 }
 .btns{
-    margin-top: 3em;
+    margin-top: 2.5m;
 }
 
 button{
@@ -45,4 +51,14 @@ button{
     padding: 1em 2em;
     border-radius: 5px;
     background-color: aqua;
+}
+
+table{
+    font-size: 25px;
+    border: 1px;
+    padding: 10px;
+    border-collapse: collapse;
+}
+#marks{
+    display: none;
 }

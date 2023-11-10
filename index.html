@@ -10,12 +10,13 @@
 </head>
 
 <body>
+    <h1>Dice Game</h1>
     <div class="main">
 
-        <h1>Dice Game</h1>
-
         <section class="namei" id="namei">
-            <input type="text" class="form-control" id="P1Name" placeholder="PLayer 1 Name"><br>
+            <label for="">Player 1 Name:</label>
+            <input type="text" id="P1Name" placeholder="PLayer 1 Name"><br>
+            <label for="">Player 2 Name:</label>
             <input type="text" id="P2Name" placeholder="PLayer 2 Name"><br>
             <!-- <button onclick="setname()">Start Game</button> -->
         </section>
@@ -23,20 +24,19 @@
         <div class="dice" id="dice">
             <div class="p1">
                 <h3 id="P1N">Player 1</h3>
-                <img src="./images/dice2.png" id="p1i" alt="">
+                <div class="img">
+                    <img src="./images/dice2.png" id="p1i" alt="">
+                </div>
             </div>
             <div class="p2">
                 <h3 id="P2N">Player 2</h3>
                 <img src="./images/dice2.png" id="p2i">
             </div>
         </div>
-        <div class="btns">
-            <button onclick="roldice()">Play</button>
-            <button>Restart</button>
-
-        </div>
-
-
+    </div>
+    <div class="btns">
+        <button onclick="roldice()">Play</button>
+        <button>Restart</button>
 
     </div>
     <script src="script.js"></script>

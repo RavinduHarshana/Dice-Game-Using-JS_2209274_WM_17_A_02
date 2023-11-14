@@ -32,6 +32,10 @@ body{
 #strt{
     margin-top: 50px;
 }
+#strt:hover{
+    background-color: red;
+    border: 1px solid black;
+}
 
 input{
     border: none;
